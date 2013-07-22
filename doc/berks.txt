@@ -1,0 +1,14 @@
+*berks.txt*  basic vim/berks integration
+
+Author:  Mark Cornick <https://github.com/markcornick>
+License: MIT license
+Repo:    https://github.com/markcornick/vim-berks
+
+COMMANDS                                        *berks*
+
+This command is only available if berks is in your PATH.
+
+                                                *berks-:Berks*
+:Berks [args]         Invoke an arbitrary berks command.
+
+ vim:tw=78:et:ft=help:norl:
