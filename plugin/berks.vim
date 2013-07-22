@@ -13,7 +13,7 @@ endfunction
 augroup berks
   autocmd!
   autocmd VimEnter *
-        \ command! -nargs=+ -complete=custom,s:commands berks execute '!berks '.<q-args>
+        \ command! -nargs=+ -complete=custom,s:commands Berks execute '!berks '.<q-args>
 augroup END
 
 " vim:set et sw=2:
