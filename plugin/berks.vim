@@ -1,5 +1,5 @@
 " berks.vim - basic vim/berks integration
-" Maintainer: Mark Cornick <https://bitbucket.org/markcornick>
+" Maintainer: Mark Cornick <https://github.com/markcornick>
 
 if exists("g:loaded_berks") || v:version < 700 || &cp || !executable('berks')
   finish
