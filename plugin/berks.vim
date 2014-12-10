@@ -7,7 +7,27 @@ endif
 let g:loaded_berks = 1
 
 function! s:commands(A, L, P)
-  return "apply\nconfigure\ncontingent\ncookbook\nhelp\ninit\ninstall\nlist\noutdated\npackage\nshelf\nshow\nupdate\nupload"
+  return join([
+  \ "apply",
+  \ "contingent",
+  \ "cookbook",
+  \ "help",
+  \ "info",
+  \ "init",
+  \ "install",
+  \ "list",
+  \ "outdated",
+  \ "package",
+  \ "search",
+  \ "shelf",
+  \ "show",
+  \ "update",
+  \ "upload",
+  \ "vendor",
+  \ "verify",
+  \ "version",
+  \ "viz"
+  \ ], "\n")
 endfunction
 
 augroup berks

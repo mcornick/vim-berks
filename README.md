@@ -2,7 +2,7 @@
 
 This plugin adds a `:Berks` command that runs berkshelf, with tab
 completion of subcommands. It also sets up Berksfiles to be highlighted
-as Ruby.
+as Ruby. It is intended to be used with berks 3.x.
 
 ## Installation
 
