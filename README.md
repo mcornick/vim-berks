@@ -1,8 +1,7 @@
 # Unmaintained
 
-I'm no longer using Vim regularly, and am not updating my various Vim
-plugins. Please contact me if you would like to take over maintenance
-of any or all of them. Thanks!
+This plugin is no longer maintained. If you'd like to take over
+maintenance, please let me know.
 
 # vim-berks
 
